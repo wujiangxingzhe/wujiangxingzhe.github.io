@@ -46,7 +46,20 @@
 
 		
 
-		<!-- raw HTML omitted -->
+		<h1 id="test">test</h1>
+<h2 id="test2">test2</h2>
+<div class="mermaid" align="center">
+graph LR;
+  A(think of a new brand name) -->B{related to content?}
+  B --> |No| A
+  B --> |Yes| C{max 2 words?}
+  C --> |No| A
+  C --> |Yes| D{domain available}
+  D --> |No| A
+  D -->|Yes| E{social media available}
+  E --> |No| A
+  E -->|Yes| F(that's it!)
+</div>
 
 
 		
@@ -61,14 +74,14 @@
 
         <footer>
     <span>
-    &copy; <time datetime="2020-04-29 23:26:25.6989251 &#43;0800 CST m=&#43;0.129925801">2020</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+    &copy; <time datetime="2020-04-30 17:14:17.6317633 &#43;0800 CST m=&#43;0.391775001">2020</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
     </span>
 </footer>
 
-<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
-<script>
-    mermaid.initialize({ startOnLoad: true });
-</script>
+
+
+  <script type="text/javascript" src="/js/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
 
     </body>
 </html>

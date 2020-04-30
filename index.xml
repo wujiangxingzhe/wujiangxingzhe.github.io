@@ -17,7 +17,7 @@
       <pubDate>Wed, 29 Apr 2020 22:59:05 +0800</pubDate>
       
       <guid>https://wujiangxingzhe.github.io/post/marmaid/</guid>
-      <description></description>
+      <description>test test2 graph LR; A(think of a new brand name) --B{related to content?} B -- |No| A B -- |Yes| C{max 2 words?} C -- |No| A C -- |Yes| D{domain available} D -- |No| A D --|Yes| E{social media available} E -- |No| A E --|Yes| F(that&#39;s it!)  </description>
     </item>
     
   </channel>
